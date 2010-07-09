@@ -1,0 +1,2 @@
+cd htdocs
+svn co http://svn.sourceforge.jp/svnroot/hotchpotch/site .
