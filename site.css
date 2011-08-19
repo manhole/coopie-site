@@ -1,0 +1,11 @@
+body {
+	background-color: #FFFFFF;
+	text-align: left;
+}
+
+pre {
+	margin: 15px;
+	padding: 5px;
+	font-size: 100%;
+	border: 1px solid #cccccc;
+}
