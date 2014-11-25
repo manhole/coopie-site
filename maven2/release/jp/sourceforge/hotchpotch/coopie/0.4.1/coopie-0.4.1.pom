@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>jp.sourceforge.hotchpotch</groupId>
+  <artifactId>coopie</artifactId>
+  <version>0.4.1</version>
+  <packaging>jar</packaging>
+  <name>coopie</name>
+  <description>Read/Write library for two-dimensional arrays of data.</description>
+  <url>https://github.com/manhole/coopie</url>
+  <inceptionYear>2010</inceptionYear>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>manhole</id>
+      <name>HONMA Hirotaka</name>
+      <email>manholex@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git@github.com:manhole/coopie.git</connection>
+    <developerConnection>scm:git:git@github.com:manhole/coopie.git</developerConnection>
+    <url>https://github.com/manhole/coopie</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.t2framework.commons</groupId>
+      <artifactId>commons</artifactId>
+      <version>0.6.7-ga</version>
+      <exclusions>
+        <exclusion>
+          <artifactId>logback-core</artifactId>
+          <groupId>ch.qos.logback</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>slf4j-api</artifactId>
+          <groupId>org.slf4j</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>1.7.7</version>
+    </dependency>
+    <dependency>
+      <groupId>ch.qos.logback</groupId>
+      <artifactId>logback-core</artifactId>
+      <version>1.1.2</version>
+    </dependency>
+    <dependency>
+      <groupId>ch.qos.logback</groupId>
+      <artifactId>logback-classic</artifactId>
+      <version>1.1.2</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.poi</groupId>
+      <artifactId>poi-ooxml</artifactId>
+      <version>3.9</version>
+      <optional>true</optional>
+    </dependency>
+  </dependencies>
+</project>
