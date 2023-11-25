@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.sourceforge.hotchpotch",
+    "module": "coopie",
+    "version": "0.5.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.1.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "coopie-0.5.0.jar",
+          "url": "coopie-0.5.0.jar",
+          "size": 274502,
+          "sha512": "af92855fbcfddf66d29794db2487dec0c579494096b90cacc5314c45b64fb0869c559e5fc555d777a83ca47262e338538e220e9d8cf5046f960722e87854d039",
+          "sha256": "ed268db85610e2002be8e7d680c852ff16a98efd77469a42f9bde8e8db29154e",
+          "sha1": "59fcb202d5258c04f6f2320f9a001bf573ede51a",
+          "md5": "61cad1e299137f960eb58060a03bcaaf"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.9"
+          }
+        },
+        {
+          "group": "org.apache.poi",
+          "module": "poi-ooxml",
+          "version": {
+            "requires": "3.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "coopie-0.5.0.jar",
+          "url": "coopie-0.5.0.jar",
+          "size": 274502,
+          "sha512": "af92855fbcfddf66d29794db2487dec0c579494096b90cacc5314c45b64fb0869c559e5fc555d777a83ca47262e338538e220e9d8cf5046f960722e87854d039",
+          "sha256": "ed268db85610e2002be8e7d680c852ff16a98efd77469a42f9bde8e8db29154e",
+          "sha1": "59fcb202d5258c04f6f2320f9a001bf573ede51a",
+          "md5": "61cad1e299137f960eb58060a03bcaaf"
+        }
+      ]
+    }
+  ]
+}

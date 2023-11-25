@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.sourceforge.hotchpotch",
+    "module": "coopie-groovy",
+    "version": "0.5.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.1.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "coopie-groovy-0.5.0.jar",
+          "url": "coopie-groovy-0.5.0.jar",
+          "size": 27128,
+          "sha512": "3d60c1cd1e78a7565f831245a513f2919bc1c6bce5b1a9dad15d958a1816e34270b57919e3cb16cf16f67bf1683456c0476d5cf2c931466733bb4cedb8158862",
+          "sha256": "7b7d73ea5403ff21e8946647dbc65fb9dbe7cf70a7a346520b3d46bd6de418af",
+          "sha1": "1ccab82a35fe6fb0120ac2afd761510b94e995a9",
+          "md5": "daf2b6102619f0d94b1d5e3bc4d5aaa0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.9"
+          }
+        },
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "4.0.15"
+          }
+        },
+        {
+          "group": "jp.sourceforge.hotchpotch",
+          "module": "coopie",
+          "version": {
+            "requires": "0.5.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "coopie-groovy-0.5.0.jar",
+          "url": "coopie-groovy-0.5.0.jar",
+          "size": 27128,
+          "sha512": "3d60c1cd1e78a7565f831245a513f2919bc1c6bce5b1a9dad15d958a1816e34270b57919e3cb16cf16f67bf1683456c0476d5cf2c931466733bb4cedb8158862",
+          "sha256": "7b7d73ea5403ff21e8946647dbc65fb9dbe7cf70a7a346520b3d46bd6de418af",
+          "sha1": "1ccab82a35fe6fb0120ac2afd761510b94e995a9",
+          "md5": "daf2b6102619f0d94b1d5e3bc4d5aaa0"
+        }
+      ]
+    }
+  ]
+}
